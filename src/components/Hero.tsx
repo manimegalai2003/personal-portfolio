@@ -129,7 +129,7 @@ const Hero = () => {
           >
             <span className="flex items-center">
   <a
-    href="https://drive.google.com/drive/folders/1-J_NJX1ebeLPG1NfWko-rgdAq3s6YLTT"
+    href="https://drive.google.com/file/d/1PwFPpgovJ2hSIXp40jASHS3Kd2e3btob/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
   >
