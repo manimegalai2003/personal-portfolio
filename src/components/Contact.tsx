@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -11,11 +10,30 @@ const Contact = () => {
     email: '',
     description: ''
   });
+  const [status, setStatus] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
+    setStatus('Sending...');
+    try {
+      const response = await fetch('https://formspree.io/f/xyzjjrjg', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.description
+        })
+      });
+      if (response.ok) {
+        setStatus('Message sent!');
+        setFormData({ name: '', email: '', description: '' });
+      } else {
+        setStatus('Failed to send. Please try again.');
+      }
+    } catch (error) {
+      setStatus('Failed to send. Please try again.');
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -93,6 +111,7 @@ const Contact = () => {
                     <Send className="w-5 h-5 mr-2" />
                     Send Message
                   </Button>
+                  {status && <p className="text-center text-sm text-gray-300 mt-2">{status}</p>}
                 </form>
               </div>
               
@@ -113,7 +132,7 @@ const Contact = () => {
                     <Mail className="w-8 h-8 text-purple-400 mr-4 group-hover:scale-110 transition-transform" />
                     <div>
                       <h3 className="text-lg font-semibold text-white mb-1">Email</h3>
-                      <p className="text-gray-300 text-sm">manimegalaim10152003@gmail.com</p>
+                      <p className="text-gray-300 text-sm">manimegalai10152003@gmail.com</p>
                     </div>
                   </a>
                   

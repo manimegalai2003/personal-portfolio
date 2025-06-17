@@ -51,7 +51,7 @@ const Achievements = () => {
         <div className="animate-fade-in">
           <h2 className="text-5xl font-bold text-center mb-4">
             <span className="text-gradient bg-gradient-to-r from-yellow-400 via-orange-400 to-pink-600 bg-clip-text text-transparent">
-              Key Achievements
+              Achievements
             </span>
           </h2>
           <p className="text-center text-gray-400 mb-16 text-lg">Celebrating milestones and recognition</p>

@@ -51,10 +51,10 @@ const Experience = () => {
         <div className="animate-fade-in">
           <h2 className="text-5xl font-bold text-center mb-4">
             <span className="text-gradient bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
-              Professional Experience
+              Internships
             </span>
           </h2>
-          <p className="text-center text-gray-400 mb-16 text-lg">Journey through my professional growth</p>
+          
           
           <div className="max-w-6xl mx-auto">
             <div className="space-y-8">

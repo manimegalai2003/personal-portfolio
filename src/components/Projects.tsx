@@ -25,11 +25,11 @@ const Projects = () => {
   stats: { donors: "500+", efficiency: "90%" }
 },
 {
-  title: "Personal Portfolio Website",
+  title: "Ecommerce platform",
   description: "Designed and developed a responsive portfolio website to showcase my projects, skills, and experience using React, HTML, CSS, and JavaScript.",
   technologies: ["React", "HTML", "CSS", "JavaScript"],
-  link: "https://github.com/manimegalai2003/portfolio", // <-- Your GitHub repo URL
-  demo: "https://your-portfolio-link.com", // <-- Your live portfolio URL
+  link: "https://github.com/manimegalai2003/E-commerce-website", // <-- Your GitHub repo URL
+  demo: "https://e-commerce-website-jade-nu.vercel.app/", // <-- Your live portfolio URL
   category: "Web Development",
   image: "💼",
   stats: { pages: "5+", visitors: "1K+" }
@@ -39,30 +39,10 @@ const Projects = () => {
   description: "Developed a weather prediction application using OpenWeatherMap API, providing real-time weather updates and forecasts with a clean, responsive interface.",
   technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
   link: "https://github.com/manimegalai2003/Weather-Prediction-",
-  demo: "https://your-weather-demo-link.com",
+  demo: "https://weather-prediction-w5qy.vercel.app/",
   category: "Web Application",
   image: "⛅",
   stats: { cities: "100+", accuracy: "Real-time" }
-},
-    {
-  title: "E-commerce Platform",
-  description: "Developed a robust e-commerce platform enabling seamless online book shopping, complete with dynamic product catalogs, user authentication, cart management, and secure checkout functionality.",
-  technologies: ["React.js", "HTML", "CSS", "JavaScript"],
-  link: "https://github.com/manimegalai2003/BookStore-Platform",
-  demo: "https://your-demo-link.com", // <-- Add your live demo URL here
-  category: "Web Development",
-  image: "📚",
-  stats: { pages: "15+", components: "25+" }
-},
-{
-  title: "Image Classifier (CNN)",
-  description: "Trained a Convolutional Neural Network to categorize images into multiple classes with high precision using deep learning.",
-  technologies: ["Python", "TensorFlow", "OpenCV", "NumPy"],
-  link: "https://github.com/manimegalai2003/NM-PROJECT",
-  demo: "https://your-demo-link.com", // <-- Add your live demo URL here
-  category: "Computer Vision",
-  image: "🖼️",
-  stats: { precision: "92%", classes: "10+" }
 }
   ];
 
