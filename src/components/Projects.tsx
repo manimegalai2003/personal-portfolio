@@ -7,32 +7,32 @@ const Projects = () => {
    {
   title: "Restaurant Website",
   description: "Developed a modern, responsive restaurant website featuring menu display, table reservations, and customer feedback system.",
-  technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+  technologies: ["React", "HTML", "CSS", "JavaScript"],
   link: "https://github.com/manimegalai2003/Resturant-website",
-  demo: "https://resturant-website-lovat.vercel.app/index.html",
+  demo: "https://restaurant-website-one-blond.vercel.app/login",
   category: "Web Design",
   image: "🍽",
   stats: { responsive: "100%", speed: "95%" }
+},
+    {
+  title: "Ecommerce platform",
+  description: "Designed and developed a responsive portfolio website to showcase my projects, skills, and experience using React, HTML, CSS, and JavaScript.",
+  technologies: ["React", "HTML", "CSS", "JavaScript"],
+  link: "https://github.com/manimegalai2003/E-commerce-website", 
+  demo: "https://e-commerce-website-jade-nu.vercel.app/", 
+  category: "Web Development",
+  image: "💼",
+  stats: { pages: "5+", visitors: "1K+" }
 },
 {
   title: "Blood Bank Monitoring System",
   description: "Designed a comprehensive system to track blood inventory, manage donor data, and facilitate efficient blood distribution.",
   technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   link: "https://github.com/manimegalai2003/BloodBank-Monitoring-System",
-  demo: "https://resturant-website-cujv.vercel.app/", // <-- Add your live demo URL here
+  demo: "https://blood-bank-monitoring-system-nl6k.vercel.app/", 
   category: "Healthcare Tech",
   image: "🩸",
   stats: { donors: "500+", efficiency: "90%" }
-},
-{
-  title: "Ecommerce platform",
-  description: "Designed and developed a responsive portfolio website to showcase my projects, skills, and experience using React, HTML, CSS, and JavaScript.",
-  technologies: ["React", "HTML", "CSS", "JavaScript"],
-  link: "https://github.com/manimegalai2003/E-commerce-website", // <-- Your GitHub repo URL
-  demo: "https://e-commerce-website-jade-nu.vercel.app/", // <-- Your live portfolio URL
-  category: "Web Development",
-  image: "💼",
-  stats: { pages: "5+", visitors: "1K+" }
 },
 {
   title: "Weather Prediction App",
