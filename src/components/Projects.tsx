@@ -9,7 +9,7 @@ const Projects = () => {
   description: "Developed a modern, responsive restaurant website featuring menu display, table reservations, and customer feedback system.",
   technologies: ["React", "HTML", "CSS", "JavaScript"],
   link: "https://github.com/manimegalai2003/Resturant-website",
-  demo: "https://restaurant-website-one-blond.vercel.app/login",
+  demo: "https://restaurant-website-one-blond.vercel.app/",
   category: "Web Design",
   image: "🍽",
   stats: { responsive: "100%", speed: "95%" }
