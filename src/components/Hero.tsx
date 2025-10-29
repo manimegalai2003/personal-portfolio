@@ -129,7 +129,7 @@ const Hero = () => {
           >
             <span className="flex items-center">
   <a
-    href="https://drive.google.com/file/d/1gAng8DUenBEDKhaw-CozvIzgwzZbTE_9/view?usp=sharing"
+    href="https://drive.google.com/file/d/1_iXzp7l3Q6dAyltccmaUf4FjP8WlCtIy/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -158,7 +158,7 @@ const Hero = () => {
             <div className="absolute inset-0 rounded-full bg-purple-400/20 opacity-0 group-hover:opacity-100 transition-opacity blur-xl"></div>
           </a>
           <a 
-            href="https://www.linkedin.com/in/manimegalai-s-bbb0102a9"
+            href="https://www.linkedin.com/in/manimegalai-sekar/"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative p-4 rounded-full bg-white/5 border border-white/10 hover:border-purple-400/50 transition-all duration-300 transform hover:scale-110 hover:rotate-6"
