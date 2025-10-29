@@ -150,7 +150,7 @@ const Contact = () => {
                   </a>
                   
                   <a 
-                    href="https://www.linkedin.com/in/manimegalai-s-bbb0102a9"
+                    href="https://www.linkedin.com/in/manimegalai-sekar/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="glass-card rounded-xl p-6 hover-glow transition-all duration-300 group flex items-center"
