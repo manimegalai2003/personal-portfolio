@@ -142,7 +142,7 @@ const Hero = () => {
         {/* Enhanced social links */}
         <div className="flex items-center justify-center space-x-8 animate-fade-in" style={{ animationDelay: '1.2s' }}>
           <a 
-            href="mailto:manimegalaim10152003@gmail.com"
+            href="mailto:manimegalaisekar.sm@gmail.com"
             className="group relative p-4 rounded-full bg-white/5 border border-white/10 hover:border-purple-400/50 transition-all duration-300 transform hover:scale-110 hover:rotate-6"
           >
             <Mail className="w-6 h-6 text-gray-400 group-hover:text-purple-400 transition-colors" />
